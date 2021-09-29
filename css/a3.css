@@ -1,0 +1,143 @@
+/* assignment 2 style */
+body{
+    background-color: rgb(147, 218, 218);
+}
+.scene1{
+    background-image: url(../pictures/j_crp.jpg);
+    /* background-color: rosybrown; */
+    width: 300px;
+    min-height:400px;
+    position: absolute;
+    right:40%;
+    font-size: 0px;
+}
+.scene1:active{
+    background-image: url(../pictures/jurassic_park.jpg);
+    width: 1300px;
+    min-height:400px;
+    position: absolute;
+    right:9%;
+    font-size: 30px;
+    color: rgb(255, 7, 7);
+}
+
+.scene2{
+    background-image: url(../pictures/k_crp.jpg);
+    /* background-color: rosybrown; */
+    width: 300px;
+    min-height:380px;
+    position: absolute;
+    right:40%;
+    margin-top: 26%;
+    font-size: 0px;
+}
+
+.scene2:active{
+    background-image: url(../pictures/king_kong.jpg);
+    width: 1200px;
+    min-height:380px;
+    right:10%;
+    font-size: 30px;
+    color: rgb(255, 7, 7);
+}
+
+.scene3{
+    background-image: url(../pictures/s_crp.jpg);
+    /* background-color: rosybrown; */
+    width: 250px;
+    min-height:400px;
+    position: absolute;
+    right:41%;
+    margin-top: 51%;
+    font-size: 0px;
+    
+}
+.scene3:active{
+    background-image: url(../pictures/spongebob.jpg);
+    width: 1000px;
+    min-height:400px;
+    right:20%;
+    font-size: 30px;
+    color: rgb(255, 7, 7);
+}
+
+.comment{
+    display: block;
+    border: 5px solid;
+    border-color: peru;
+    padding: 1em;
+    width: 120px;
+    height: 160px;
+    position: absolute;
+    right:20%;
+    font-size: 20px;
+    text-align: center;
+    top:13%;
+    /* include border for comments 1+2+3 */
+}
+
+.comment2{
+    display: block;
+    border: 5px solid;
+    border-color: peru;
+    padding: 1em;
+    width: 120px;
+    height: 150px;
+    position: absolute;
+    right:20%;
+    font-size: 20px;
+    text-align: center;
+    top:72%;
+}
+
+.comment3{
+    display: block;
+    border: 5px solid;
+    border-color: peru;
+    padding: 1em;
+    width: 120px;
+    height: 160px;
+    position: absolute;
+    right:20%;
+    font-size: 20px;
+    text-align: center;
+    top:128%;
+}
+
+.pic_container{
+    background-image: url(../pictures/pf2.png);
+    background-color: rgb(236, 210, 152);
+    margin-top:80%;
+    width:1510px;
+    height:1500px;
+    text-align: center;
+
+}
+
+.art{
+    float:left;
+    /* background-color: rosybrown; */
+    padding-top: 18%;
+    padding-left: 15%;
+    margin-left: 5%;
+    max-width: 1500px;
+}
+
+.art2{
+    float:left;
+    /* background-color: rosybrown; */
+    padding-top: 10%;
+    padding-left: 15%;
+    margin-left: 5%;
+    max-width: 1500px;
+
+}
+
+.generations{
+    margin-top:2%;
+    background-color:  rgb(168, 17, 168);
+    text-align: center;
+    font-size: 30px;
+    border: 10px solid;
+    border-color: white;
+}
