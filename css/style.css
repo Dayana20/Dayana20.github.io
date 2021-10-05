@@ -2,17 +2,35 @@ body{
     background-color: rgb(200, 185, 228);
 }
 
+#intro{
+    background-image: url(../pictures/neon2.gif);
+    /* position:relative; */
+    background-size: cover;
+    height: 1400px;
+}
+#assignment{
+    text-align: center;
+    font-size: 20px;
+    margin-top: 66em;
+    background-color: #33fff5;
+    /* background-color: chartreuse; */
+}
+
 .assignments{
-    margin-top: 5%;
     /* background-color: skyblue; */
     text-align: center;
+    display: block;
+    /* margin-left: 45%; */
 }
 .nav{
-    background-color: #8ce2ee;
+    top:0%; /*must use for sticky to work*/
+    background-color: #8c8eee;
     list-style-type: none;
     text-decoration: none;
     color:black;
     padding: 14px 14px;
+    position: sticky;
+    z-index: 1;
 }
 
 .nav a{
@@ -26,11 +44,14 @@ body{
     padding-top: 10px;
     padding-bottom: 10px;
     color:white;
+    border-radius: 10%;
 }
 
 .buLink{
     background-color: #8984d6;
     border-color: #8984d6;
+    border-radius: 10%;
+    border-color: cornflowerblue;
 }
 
 /* for all the links */
@@ -42,4 +63,32 @@ a:link{
 a:visited{
     color:black;
     text-decoration: none;
+}
+
+.dropdown {
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: rgb(200, 185, 228);;
+}
+
+/* links */
+.dropdown-content a {
+    color: black;
+    padding: 1em;
+    text-decoration: none;
+    display: block;
+    border-radius: 10%;
+    
+}
+
+.dropdown-content a:hover {background-color: #642e7c;}
+
+/* shows content in box */
+.dropdown:hover .dropdown-content {
+    display: block;
+    border-radius: 10%;
 }

@@ -3,28 +3,35 @@
 <link rel="stylesheet" href="css/style.css">
 <html>
     <head>
-        <title>Dayana's Web_Dev Website</title>
+        <title>Dayana's Web Dev Website</title>
     </head>
     <body>
-        <!-- change assignments buttton to be dropdown -->
-        <!-- <div class="dropdown">
-            <button class="drpbutton"> Class Assignments</button>
-            <div class="content">
-                <ul>
-                    <button class="buLink"><a href="assignment1.html">Assignment 1</a></button>
-                    <button class="buLink"><a href="assignment2.html">Assignment 2</a></button>
-                </ul>
+        <div id="intro"> 
+            <div class="nav">
+                <a href="index.html">Home</a>                
+                <div class="dropdown">
+                    <a href="#assignment">Assignments</a>
+                    <div class="dropdown-content">
+                            <a href="assignment1.html">Assignment 1</a>
+                            <a href="assignment2.html">Assignment 2</a>
+                            <a href="assignment3.html">Assignment 3</a>  
+                            <a href="portrait.html">Portrait</a>                        
+                    </div> 
+                </div>
             </div>
-        </div> -->
-        <div class="nav">
-            <a href="#assignment1">Class Assignments</a>
-            
-        </div>
-        <div class="assignments" id="assignments">
-            <button class="buLink"><a href="assignment1.html">Assignment 1</a></button>
-            <button class="buLink"><a href="assignment2.html">Assignment 2</a></button>
-            <button class="buLink"><a href="assignment3.html">Assignment 3</a></button>
-            <button class="buLink"><a href="portrait.html">Portrait</a></button>
+            <div id="assignment">
+                Assignments
+                <div class="assignments">
+                    <button class="buLink"><a href="assignment1.html">Assignment 1</a></button>
+                    <p>Reflection on As We May Think - Vannevar Bush, 1945 and Long Live the Web - Tim Berners Lee, 2010</p>
+                    <button class="buLink"><a href="assignment2.html">Assignment 2</a></button>
+                    <p>Poster on Ways of Seeing - John Berger</p>
+                    <button class="buLink"><a href="assignment3.html">Assignment 3</a></button>
+                    <p>Modified poster on Ways of Seeing - John Berger</p>
+                    <button class="buLink"><a href="portrait.html">Portrait</a></button>
+                    <p>Partner portrait</p>
+                </div>
+            </div>
         </div>
     </body>
 </html>
