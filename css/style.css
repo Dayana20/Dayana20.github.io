@@ -92,3 +92,47 @@ a:visited{
     display: block;
     border-radius: 10%;
 }
+
+/* assignment 7 */
+
+#a7{
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    grid-template-rows: 20% 20% 20% 20% 20%;
+    font-size: 1.2em;
+}
+
+#mirror{
+    grid-column-start:4;
+    grid-row:1;
+}
+
+#tv{
+    grid-column-start:2;
+    grid-row:2;
+}
+
+#phone{
+    grid-column-start:4;
+    grid-row:3;
+}
+
+#couch{
+    grid-column-start:1;
+    grid-row:4;
+}
+
+#b7{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content:space-around;
+    /* color:pink; */
+    text-align: center;
+    font-size: 1.2em;
+}
+
+#networks{
+    height: 800px;
+    width: 900px;
+}
