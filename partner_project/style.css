@@ -1,4 +1,6 @@
-
+body{
+    text-align: center;
+}
 #container_buttons{
     display: flex;
     align-self: center;
