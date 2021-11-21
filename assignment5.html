@@ -1,0 +1,46 @@
+<link rel="stylesheet" href="css/style.css">
+<html>
+    <head>
+        <title>assignment 5</title>
+        <script src="animation.js" defer></script>
+        <meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1, maximum-scale=1">
+        <meta charset="utf-8">
+        <!-- defer helps it not run at once? -->
+    </head>
+    <body id="a5">
+        <div id="child1">
+            <h1>Shakespeare's day</h1>
+            <button id="child1_button" onclick=change1()><img id="child1_pic" src="pictures/adultbaby.jpg"></button>
+        </div>
+        <div id="children">
+            <h1>Difference In Children Through The Years</h1>
+        </div>
+        <div id="child2">
+            <h1>Now</h1>
+            <button onclick=change2()><img id="child2_pic" src="pictures/b1.jpg"></button>
+        </div>
+
+        <div id="public">
+            <h2>The public consists of
+                separate individuals walking around with separate,
+                fixed points of view.</h2>
+            <div id="view1">
+                <button class="vp" onclick=enlargeImg1()><img id="g1" src="pictures/view1.gif"></button>
+            </div>
+            <div id=view2>
+                <button class="vp" onclick=enlargeImg2()><img id="g2" src="pictures/view2.gif"></button>
+            </div>
+        </div>
+
+        <div id="art">
+            <button class="vp" onclick=changeColor()><h3>ART</h3></button>
+            <h3>is</h3>
+            <h3>Anything</h3>
+            <h3>you</h3>
+            <h3>Can</h3>
+            <h3>get </h3>
+            <h3>Away </h3>
+            <h3>with</h3>
+        </div>
+    </body>
+</html>

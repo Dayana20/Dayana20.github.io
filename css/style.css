@@ -136,3 +136,70 @@ a:visited{
     height: 800px;
     width: 900px;
 }
+
+
+/* assignment5 */
+
+#a5{
+    background-color: cadetblue;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+#child1{
+    grid-row: 1/1;
+    grid-column: 1/1;
+    text-align: center;
+    align-items: center;
+
+}
+#child1_pic img{
+    height:50px;
+    
+}
+
+#child2{
+    grid-row: 1/1;
+    grid-column: 4/4;
+    text-align: center;
+    align-items: center;
+}
+
+#children{
+    grid-row: 1/1;
+    grid-column: 2/4;
+    text-align: center;
+}
+
+#public{
+    grid-row:3;
+    grid-column:2/4;
+    text-align: center;
+}
+
+#view1 #view2{
+    background-color: rosybrown;
+}
+
+#g1{
+    border-radius: 50%;
+}
+#g2{
+    border-radius: 50%;
+    height:200px;
+}
+.vp{
+    background-color: transparent;
+    border: transparent;
+    cursor: pointer;
+}
+
+#art{
+    background-color: thistle;
+    grid-row:4/4;
+    grid-column: 2/4;
+    text-align: center;
+    margin-top: 10%;
+    text-shadow: red 1px 1px;
+}
