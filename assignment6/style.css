@@ -1,0 +1,20 @@
+body{
+    text-align: center;
+    background-color: rgb(123, 123, 212);
+}
+
+h1{
+    color: rgb(241, 236, 236)
+}
+
+#b1{
+    background-color: rgb(238, 179, 130);
+}
+
+p{
+    color:pink;
+}
+
+#lists{
+    color:rgb(56, 16, 102)
+}
